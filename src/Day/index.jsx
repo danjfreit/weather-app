@@ -11,8 +11,7 @@ export function Day() {
         <img src={logo} alt="Weather Icon" />
       </div>
       <div className="day__temp">
-        <div className="day__high">70°</div>
-        <div className="day__low">60°</div>
+        70°
       </div>
     </div>
   )

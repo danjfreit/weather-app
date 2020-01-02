@@ -14,8 +14,6 @@
 .day__temp {
   display: flex;
   justify-content: center;
-}
-
-.day__temp > div{
+  
   padding: 0.25em;
 }
