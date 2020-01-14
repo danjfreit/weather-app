@@ -3,10 +3,10 @@ import './Day.css';
 import logo from './logo.svg';
 
 
-export function Day() {
+export function Day(props) {
   return (
     <div className="Day">
-      <div className="day__label">Mon</div>
+      <div className="day__label">{props.dayOfWeek}</div>
       <div className="day__icon">
         <img src={logo} alt="Weather Icon" />
       </div>

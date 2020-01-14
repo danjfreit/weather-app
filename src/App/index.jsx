@@ -5,11 +5,11 @@ import { Day } from '../Day';
 function App() {
   return (
     <div className="App">
-      <Day />
-      <Day />
-      <Day />
-      <Day />
-      <Day />
+      <Day dayOfWeek="Mon" />
+      <Day dayOfWeek="Tue" />
+      <Day dayOfWeek="Wed" />
+      <Day dayOfWeek="Thu" />
+      <Day dayOfWeek="Fri" />
     </div>
   );
 }
