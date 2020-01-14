@@ -10,8 +10,8 @@ export function Day(props) {
         <img src={props.icon} alt="Weather Icon" />
       </div>
       <div className="day__temp">
-        <div className="day__high">70°</div>
-        <div className="day__low">60°</div>
+        <div className="day__high">{props.highAndLow.high}°</div>
+        <div className="day__low">{props.highAndLow.low}°</div>
       </div>
     </div>
   )
