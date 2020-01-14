@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
 import { Day } from '../Day';
+import logo from '../Icons/logo.svg';
 
 function App() {
+  const days = ["Mon", "Tue", "Wed", "Thu", "Fri"]
+
   return (
     <div className="App">
-      <Day dayOfWeek="Mon" />
-      <Day dayOfWeek="Tue" />
-      <Day dayOfWeek="Wed" />
-      <Day dayOfWeek="Thu" />
-      <Day dayOfWeek="Fri" />
+      {days.map(day => <Day
+        dayOfWeek={day}
+        icon={logo} />)}
     </div>
   );
 }
