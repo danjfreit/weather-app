@@ -1,6 +1,18 @@
 .Day {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  
+  transition: 0.25s;
+}
+
+.Day:hover {
+  box-shadow: 0 0 4px 1px #888888 inset;
+}
+
+.Day:active {
+  box-shadow: 0 0 4px 4px #888 inset;
+  transition: 0.05s;
 }
 
 .day__label {
